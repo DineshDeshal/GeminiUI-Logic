@@ -1,0 +1,118 @@
+.main{
+    flex: 1;
+
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    margin-left: 20px;
+    
+}
+.nav img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+}
+.main-container{
+    max-width: 900px;
+    margin: auto;
+}
+.main .greet{
+    margin: 50px 0px;
+    font-size: 56px ;
+    color: rgba(63, 63, 58, 0.389);
+    font-weight: 500;
+    padding: 20px;
+
+
+}
+.main .greet span{
+    background: -webkit-linear-gradient(16deg,rgb(22, 84, 219),rgb(224, 22, 8));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.main .cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(180px,1fr));
+    gap: 15px;
+    padding: 60px;
+    
+}
+.main .card{
+    height: 200px;
+    padding: 15px;
+background-color: rgb(216, 207, 197);
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+.main .card:hover{
+    background-color: rgb(244, 218, 187);
+    
+}
+.main .card img{
+    width: 35px;
+    padding: 5px;
+    position: absolute;
+    background-color: white;
+    border-radius: 20px;
+    bottom: 10px;
+    right: 10px;
+}
+.main .card p{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ .main-bottom{
+    position: absolute;
+    border: 0;
+    width: 100%;
+    max-width: 900px;
+    padding: 0px 20px ;
+    margin: auto;
+
+
+}
+.search-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+background-color: rgb(216, 207, 197);
+    padding: 10px 20px ;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+.search-box img{
+    width: 24px;
+    cursor: pointer;
+
+
+}
+.search-box input{
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 8px;
+    font-size: 18px;
+
+}
+.search-box div{
+    display: flex;
+    align-items: center;
+    gap : 15px;
+}
+.bottom-info{
+   font-size: 13px;
+   margin: 15px auto;
+   text-align: center;
+   font-weight: 300;
+
+  
+}
